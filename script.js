@@ -7,7 +7,7 @@ function first(){
     let c3 = document.getElementById("c3")
 
     if(counter == 0){ 
-        counter++; 
+        counter=1; 
        let text = Input.value 
  
         if(text == "Идти дальше по тропинке"){
@@ -28,7 +28,7 @@ function first(){
     } 
    
     if(counter == 1){ 
-        counter++; 
+        counter=2; 
         let text = Input.value 
 
         if(text == "Конечно зайду"){
@@ -55,7 +55,7 @@ function first(){
     
     } 
     if(counter == 2){
-        counter++;
+        counter=3;
         let text = Input.value
 
         if(text == "В голову")
